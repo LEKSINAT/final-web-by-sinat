@@ -1,0 +1,22 @@
+.section-container {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    gap: 20px;
+
+    p {
+        flex: 1;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    img {
+        flex: 1;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
