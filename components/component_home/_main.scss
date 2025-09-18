@@ -1,0 +1,23 @@
+.main-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: $bg-color;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: $font-stack;
+    
+    p {
+        font-size: 18px;
+        line-height: 1.8;
+        color: $primary-color;
+        text-align: justify;
+        border-left: 5px solid $secondary-color;
+        padding-left: 15px;
+    }
+
+    &:hover {
+        background: lighten($bg-color, 5%);
+        // transition: background 0.3s ease;
+    }
+}
