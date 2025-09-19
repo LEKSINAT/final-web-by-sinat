@@ -24,4 +24,49 @@
 }
 .nav-container li a:hover {
   color: grey;
+}
+
+header {
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 18px;
+}
+header h1 {
+  text-align: center;
+}
+header p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section .pn-values {
+  padding-top: 20px;
+}
+section .pn-values h1 {
+  text-align: center;
+}
+section .valuess {
+  margin-top: 30px;
+}
+section .respect-text {
+  padding-top: 10px;
+}
+section .values {
+  text-align: center;
+  height: 250px;
+  width: 300px;
+  padding-top: 40px;
+  border-radius: 20px;
+  background: rgba(198, 225, 234, 0.149);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+section .img-pnc {
+  width: 80px;
+  height: 85px;
+}
+section .card-values {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=about.css.map */

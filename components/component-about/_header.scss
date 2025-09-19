@@ -1,0 +1,60 @@
+header {
+    // background-color: #f0f0f0;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 18px;
+
+    h1 {
+        text-align: center;
+        // font-size: 2.5em;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+
+    }
+}
+
+section {
+    .pn-values {
+        padding-top: 20px;
+    }
+
+    .pn-values h1 {
+        text-align: center;
+    }
+
+    .valuess {
+        margin-top: 30px;
+
+    }
+
+    .respect-text {
+        padding-top: 10px;
+    }
+
+    .values {
+        text-align: center;
+        height: 250px;
+        width: 300px;
+        padding-top: 40px;
+        border-radius: 20px;
+        background: rgba(198, 225, 234, 0.149);
+        box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    }
+
+    .img-pnc {
+        width: 80px;
+        height: 85px;
+    }
+
+    .card-values {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

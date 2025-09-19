@@ -24,4 +24,53 @@
 }
 .nav-container li a:hover {
   color: grey;
+}
+
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .footer-container div {
+  flex: 1 1 220px;
+  margin: 10px;
+}
+.footer .footer-container div h4 {
+  color: #f0a500;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.footer .footer-container div p, .footer .footer-container div li, .footer .footer-container div a {
+  color: #ccc;
+  font-size: 14px;
+}
+.footer .footer-container div a {
+  text-decoration: none;
+}
+.footer .footer-container div a:hover {
+  color: #f0a500;
+}
+.footer .footer-container div ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .footer-container div ul li {
+  margin-bottom: 8px;
+}
+.footer .footer-container div .social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #888;
 }/*# sourceMappingURL=contact.css.map */
