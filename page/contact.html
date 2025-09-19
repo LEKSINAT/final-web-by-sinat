@@ -22,6 +22,70 @@
             </ul>
         </div>
     </nav>
+
+    <section class="contact-section" aria-labelledby="contact-heading">
+
+
+        <!-- LEFT: Form -->
+        <div class="contact-form contact-card">
+            <div class="heading">
+                <h2 id="contact-heading">Get in touch</h2>
+                <p>Have a project, question or just want to say hi? Fill the form — I usually reply within a few days.
+                </p>
+            </div>
+
+
+            <form action="#" method="post" novalidate>
+                <div>
+                    <label for="first">First name</label>
+                    <input id="first" name="first" type="text" autocomplete="given-name" required />
+                </div>
+
+
+                <div>
+                    <label for="last">Last name</label>
+                    <input id="last" name="last" type="text" autocomplete="family-name" />
+                </div>
+
+
+                <div class="full">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required />
+                </div>
+
+
+                <div class="full">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required
+                        placeholder="Tell me about your project or question..."></textarea>
+                </div>
+
+
+                <div class="actions">
+                    <button type="submit">Send message</button>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- RIGHT: Contact details -->
+        <aside class="contact-info contact-card" aria-label="Contact details">
+
+
+            <div class="info-item">
+                <div class="icon" aria-hidden="true">
+                    <!-- phone SVG -->
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12 1.05.33 2.07.63 3.05a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1-1.12a2 2 0 0 1 2.11-.45c.98.3 2 .51 3.05.63A2 2 0 0 1 22 16.92z"
+                            stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="meta">
+                    <div class="title">Phone</div>
+                    <div class="sub">+1 (555) 123-4567</div>
+                </div>
+    </section>
 </body>
 
 </html>

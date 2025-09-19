@@ -24,27 +24,4 @@
     }
 }
 
-.main-container {
-  position: relative;
-
-  img {
-    width: 100%;
-    display: block;
-  }
-
-  h2, p {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    text-align: center;
-    width: 80%;
-    // background: rgba(0,0,0,0.4);
-    padding: 10px;
-    border-radius: 8px;
-  }
-
-  h2 { top: 30%; }
-  p  { top: 50%; }
-}
 
