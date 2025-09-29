@@ -59,6 +59,7 @@ section {
         background: rgba(198, 225, 234, 0.149);
         box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
     }
+
     .img-pnc {
         width: 80px;
         height: 85px;
@@ -91,7 +92,7 @@ section {
     }
 
     .sport {
-         background: rgba(135, 207, 235, 0.037);
+        background: rgba(135, 207, 235, 0.037);
         margin: 50px 100px;
         display: flex;
         gap: 30px;
@@ -103,12 +104,49 @@ section {
             margin: 20px 20px 20px 0px;
             // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
         }
-
         p {
             padding-top: 60px;
             // text-align: center;
             // width: 400px;
             font-size: 17px;
+        }
+    }
+    .info-senior{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+        color: orange;
+    }
+    .senior {
+        margin: 50px 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        .card-senior {
+            background: rgba(135, 207, 235, 0.111);
+            width: 25%;
+            gap: 30px;
+            border-radius: 15px;
+            .box-senior {
+                padding: 15px;
+            }
+            img {
+                width: 200px;
+                height: 200px;
+                border-radius: 20px;
+                margin-top: 20px;
+                // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+            }
+
+            p {
+                padding-top: 20px;
+                font-size: 17px;
+            }
+        }
+        h1 {
+            margin-bottom: 20px;
         }
     }
 }

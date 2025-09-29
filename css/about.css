@@ -135,6 +135,42 @@ section .sport p {
   padding-top: 60px;
   font-size: 17px;
 }
+section .info-senior {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: orange;
+}
+section .senior {
+  margin: 50px 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+section .senior .card-senior {
+  background: rgba(135, 207, 235, 0.111);
+  width: 25%;
+  gap: 30px;
+  border-radius: 15px;
+}
+section .senior .card-senior .box-senior {
+  padding: 15px;
+}
+section .senior .card-senior img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+section .senior .card-senior p {
+  padding-top: 20px;
+  font-size: 17px;
+}
+section .senior h1 {
+  margin-bottom: 20px;
+}
 
 .footer {
   background: #111;
