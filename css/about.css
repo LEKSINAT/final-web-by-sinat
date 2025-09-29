@@ -27,16 +27,25 @@
 }
 
 header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/headers-about.png) center/cover no-repeat;
   padding: 20px 40px;
-  text-align: center;
-  font-size: 18px;
+  height: 70vh;
 }
 header h1 {
+  color: orange;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header p {
   text-align: center;
+  font-size: 18px;
   margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section .schoolarship-school {
@@ -95,6 +104,7 @@ section .card-values {
   align-items: center;
 }
 section .canteen-info {
+  background: rgba(135, 207, 235, 0.299);
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -103,9 +113,26 @@ section .canteen-info {
   margin: 50px 100px;
 }
 section .canteen-pic img {
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 250px;
   border-radius: 20px 0px 20px 0px;
+  margin: 20px 20px 20px 0px;
+}
+section .sport {
+  background: rgba(135, 207, 235, 0.299);
+  margin: 50px 100px;
+  display: flex;
+  gap: 30px;
+}
+section .sport img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px 0px 20px 0px;
+  margin: 20px 20px 20px 0px;
+}
+section .sport p {
+  padding-top: 60px;
+  font-size: 17px;
 }
 
 .footer {

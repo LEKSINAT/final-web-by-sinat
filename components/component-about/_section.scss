@@ -70,6 +70,7 @@ section {
     }
 
     .canteen-info {
+         background: rgba(135, 207, 235, 0.299);
         margin-top: 50px;
         display: flex;
         justify-content: center;
@@ -78,9 +79,30 @@ section {
         margin: 50px 100px;
     }
     .canteen-pic img {
-        width: 500px;
-        height: 300px;
-        border-radius: 20px 0px 20px 0px;
+              width: 400px;
+            height: 250px;
+            border-radius: 20px 0px 20px 0px;
+            margin: 20px 20px 20px 0px;
         // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    }
+
+    .sport{
+        background: rgba(135, 207, 235, 0.299);
+        margin: 50px 100px;
+        display: flex;
+        gap: 30px;
+        img{
+            width: 400px;
+            height: 250px;
+            border-radius: 20px 0px 20px 0px;
+            margin: 20px 20px 20px 0px;
+            // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+        }
+        p{
+            padding-top: 60px;
+            // text-align: center;
+            // width: 400px;
+            font-size: 17px;
+        }
     }
 }
