@@ -94,6 +94,19 @@ section .card-values {
   justify-content: center;
   align-items: center;
 }
+section .canteen-info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 100px;
+}
+section .canteen-pic img {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px 0px 20px 0px;
+}
 
 .footer {
   background: #111;
