@@ -23,69 +23,100 @@
         </div>
     </nav>
 
-    <section class="contact-section" aria-labelledby="contact-heading">
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2 class="contact-title">Contact Us</h2>
 
-
-        <!-- LEFT: Form -->
-        <div class="contact-form contact-card">
-            <div class="heading">
-                <h2 id="contact-heading">Get in touch</h2>
-                <p>Have a project, question or just want to say hi? Fill the form — I usually reply within a few days.
+            <div class="contact-address">
+                <h3>Address</h3>
+                <p>
+                    BP 511 St. 371 Phum Tropeang Chhuk (Borey Sorla) Sangkat, Tek Thla Khan Sen Sok, Phnom Penh CAMBODIA
+                    🇰🇭
                 </p>
             </div>
 
-
-            <form action="#" method="post" novalidate>
-                <div>
-                    <label for="first">First name</label>
-                    <input id="first" name="first" type="text" autocomplete="given-name" required />
+            <form class="contact-form">
+                <div class="name-fields">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                    </div>
                 </div>
 
-
-                <div>
-                    <label for="last">Last name</label>
-                    <input id="last" name="last" type="text" autocomplete="family-name" />
-                </div>
-
-
-                <div class="full">
+                <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" name="email" type="email" autocomplete="email" required />
+                    <input type="email" id="email" name="email" placeholder="Email">
                 </div>
 
-
-                <div class="full">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required
-                        placeholder="Tell me about your project or question..."></textarea>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="Description"></textarea>
                 </div>
 
-
-                <div class="actions">
-                    <button type="submit">Send message</button>
-                </div>
+                <button type="submit" class="submit-btn">Submit</button>
             </form>
         </div>
 
-
-        <!-- RIGHT: Contact details -->
-        <aside class="contact-info contact-card" aria-label="Contact details">
-
-
-            <div class="info-item">
-                <div class="icon" aria-hidden="true">
-                    <!-- phone SVG -->
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                        <path
-                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12 1.05.33 2.07.63 3.05a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1-1.12a2 2 0 0 1 2.11-.45c.98.3 2 .51 3.05.63A2 2 0 0 1 22 16.92z"
-                            stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </div>
-                <div class="meta">
-                    <div class="title">Phone</div>
-                    <div class="sub">+1 (555) 123-4567</div>
-                </div>
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.013908328437!2d104.88050331024857!3d11.550859788601608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951add5e2cd81%3A0x171e0b69c7c6f7ba!2sPasserelles%20num%C3%A9riques%20Cambodia%20(PNC)!5e0!3m2!1sen!2skh!4v1752743731693!5m2!1sen!2skh"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </section>
+
+
+        <footer class="footer">
+        <div class="footer-container">
+            <!-- Position / Services -->
+            <div class="footer-services">
+                <h4>Our IT Services</h4>
+                <ul>
+                    <li>Network Setup & Security</li>
+                    <li>Software Development</li>
+                    <li>Cloud Solutions</li>
+                    <li>Technical Support</li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <ul class="social-icons">
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p>Email: info@techworld.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Tech Street, Silicon City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TechWorld. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>

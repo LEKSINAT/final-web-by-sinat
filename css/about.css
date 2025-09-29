@@ -53,7 +53,7 @@ section .schoolarship-school .main-text h1 {
 }
 section .schoolarship-school .main-text img {
   width: 500px;
-  height: 300px;
+  height: 400px;
   border-radius: 20px;
   padding-top: 10px;
 }
@@ -61,6 +61,7 @@ section .schoolarship-school .info-main p {
   padding-top: 60px;
   text-align: center;
   width: 600px;
+  font-size: 17px;
 }
 section .pn-values {
   padding-top: 20px;

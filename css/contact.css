@@ -26,6 +26,99 @@
   color: grey;
 }
 
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 20px;
+}
+.contact-section .contact-container {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.contact-section .contact-container .contact-title {
+  color: #0074e4;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.contact-section .contact-container .contact-address {
+  margin-bottom: 2rem;
+}
+.contact-section .contact-container .contact-address h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.contact-section .contact-container .contact-address p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.contact-section .contact-container .contact-form .name-fields {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.contact-section .contact-container .contact-form .name-fields .form-group {
+  flex: 1;
+}
+.contact-section .contact-container .contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.contact-section .contact-container .contact-form .form-group label {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.contact-section .contact-container .contact-form .form-group input,
+.contact-section .contact-container .contact-form .form-group textarea {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.contact-section .contact-container .contact-form .form-group input:focus,
+.contact-section .contact-container .contact-form .form-group textarea:focus {
+  border-color: #0074e4;
+}
+.contact-section .contact-container .contact-form .form-group textarea {
+  resize: none;
+  min-height: 80px;
+}
+.contact-section .contact-container .contact-form .submit-btn {
+  background-color: #004bff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8rem 0;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-section .contact-container .contact-form .submit-btn:hover {
+  background-color: #003acc;
+}
+.contact-section .location {
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.contact-section .location iframe {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  margin-top: 20px;
+  width: 220vh;
+  height: 500px;
+}
+
 .footer {
   background: #111;
   color: #fff;
