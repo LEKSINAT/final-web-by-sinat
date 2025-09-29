@@ -52,6 +52,12 @@ section .section-container .services .service-card {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 300px;
 }
+section .section-container .services .service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
 section .section-container .services .service-card h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
