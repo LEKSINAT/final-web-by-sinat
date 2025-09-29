@@ -147,7 +147,7 @@ section .senior {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 section .senior .card-senior {
   background: rgba(135, 207, 235, 0.111);
