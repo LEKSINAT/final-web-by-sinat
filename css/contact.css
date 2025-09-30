@@ -160,6 +160,8 @@
 .footer .footer-container div .social-icons li {
   display: inline-block;
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .footer .footer-bottom {
   text-align: center;

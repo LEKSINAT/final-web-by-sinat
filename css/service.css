@@ -33,6 +33,7 @@ section .section-container h1 {
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 20px;
+  color: orange;
 }
 section .section-container p {
   text-align: center;
@@ -109,6 +110,8 @@ section .section-container .services .service-card p {
 .footer .footer-container div .social-icons li {
   display: inline-block;
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .footer .footer-bottom {
   text-align: center;
