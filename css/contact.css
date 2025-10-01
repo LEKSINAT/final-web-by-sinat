@@ -159,9 +159,14 @@
 }
 .footer .footer-container div .social-icons li {
   display: inline-block;
-  margin-right: 10px;
-  display: flex;
   flex-direction: column;
+}
+.footer .footer-container div .social-icons li .fb {
+  display: flex;
+}
+.footer .footer-container div .social-icons li .fb i {
+  font-size: 56px;
+  margin-right: 8px;
 }
 .footer .footer-bottom {
   text-align: center;

@@ -53,6 +53,12 @@ section .section-container .services .service-card {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   width: 300px;
 }
+section .section-container .services .service-card .service-card:hover {
+  color: #a0522d;
+  background: pink;
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
 section .section-container .services .service-card img {
   width: 100%;
   height: auto;
@@ -67,6 +73,82 @@ section .section-container .services .service-card h2 {
 section .section-container .services .service-card p {
   font-size: 1em;
   line-height: 1.5;
+}
+section .section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+section .news-grid {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  margin: 5px 20px 0px 20px;
+  gap: 25px;
+}
+section .news-grid .featured-news {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+section .news-grid .featured-news img {
+  width: 60%;
+  border-radius: 8px;
+}
+section .news-grid .featured-news .featured-text {
+  margin-top: 10px;
+}
+section .news-grid .featured-news .featured-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+section .news-grid .featured-news .featured-text p {
+  color: #555;
+}
+section .news-grid .featured-news .featured-text span {
+  font-size: 0.85rem;
+  color: gray;
+}
+section .news-grid .side-story img {
+  width: 70%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+section .news-grid .side-story h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+section .news-grid .side-story p {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 0px 60px 0px 0px;
+}
+section .news-grid .side-story span {
+  font-size: 0.8rem;
+  color: gray;
+}
+section .news-cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+section .news-cards .card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+section .news-cards .card h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+section .news-cards .card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+section .news-cards .card span {
+  font-size: 0.8rem;
+  color: gray;
 }
 
 .footer {
@@ -109,9 +191,14 @@ section .section-container .services .service-card p {
 }
 .footer .footer-container div .social-icons li {
   display: inline-block;
-  margin-right: 10px;
-  display: flex;
   flex-direction: column;
+}
+.footer .footer-container div .social-icons li .fb {
+  display: flex;
+}
+.footer .footer-container div .social-icons li .fb i {
+  font-size: 56px;
+  margin-right: 8px;
 }
 .footer .footer-bottom {
   text-align: center;

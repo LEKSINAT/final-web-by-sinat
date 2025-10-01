@@ -42,10 +42,20 @@
 
       .social-icons li {
         display: inline-block;
-        margin-right: 10px;
-        display: flex;
+        // margin-right: 40px;
+        // display: flex;
         flex-direction: column;
+        .fb{
+            // color: #3b5998;
+            display: flex;
+            // align-items: center;
+            i {
+                font-size: 56px;
+                margin-right: 8px;
+            }
+        }
       }
+
     }
   }
 
