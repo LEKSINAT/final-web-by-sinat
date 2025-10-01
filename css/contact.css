@@ -6,8 +6,18 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.2039215686);
+  font-family: sans-serif;
+  padding: 0px 100px 0px 10px;
+}
+.nav-container .img {
+  display: flex;
+  align-items: center;
+}
+.nav-container .img p {
+  color: rgb(66, 0, 128);
+  font-size: 20px;
+  font-weight: bold;
 }
 .nav-container .img img {
   height: 70px;
@@ -19,8 +29,8 @@
 }
 .nav-container li a {
   text-decoration: none;
-  color: white;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 20px;
 }
 .nav-container li a:hover {
   color: grey;
