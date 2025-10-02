@@ -188,11 +188,14 @@
 }
 
 @media (max-width: 890px) and (min-width: 700px) {
-  .footer {
-    padding: 40px 0px;
+  .footer .footer-container .footer-services {
+    margin: 0px 0px 0px 52px;
   }
-  .footer .footer-container {
-    padding: 0px 0px 0px 70px;
+  .footer .footer-container .footer-social {
+    margin: 0px 0px 0px 15px;
+  }
+  .footer .footer-container .footer-links {
+    margin: 0px 0px 0px 0px;
   }
   .footer .footer-container .footer-contact {
     flex-direction: column;
