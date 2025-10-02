@@ -20,13 +20,16 @@
         font-size: 18px;
       }
 
-      p, li, a {
+      p,
+      li,
+      a {
         color: #ccc;
         font-size: 14px;
       }
 
       a {
         text-decoration: none;
+
         &:hover {
           color: #f0a500;
         }
@@ -35,6 +38,7 @@
       ul {
         list-style: none;
         padding: 0;
+
         li {
           margin-bottom: 8px;
         }
@@ -45,14 +49,16 @@
         // margin-right: 40px;
         // display: flex;
         flex-direction: column;
-        .fb{
-            // color: #3b5998;
-            display: flex;
-            // align-items: center;
-            i {
-                font-size: 56px;
-                margin-right: 8px;
-            }
+
+        .fb {
+          // color: #3b5998;
+          display: flex;
+
+          // align-items: center;
+          i {
+            font-size: 56px;
+            margin-right: 8px;
+          }
         }
       }
 
@@ -64,5 +70,18 @@
     margin-top: 20px;
     font-size: 13px;
     color: #888;
+  }
+}
+
+// #template
+@media (max-width: 890px) and (min-width: 700px) {
+  .footer {
+    padding: 40px 5px;
+    .footer-container {
+      gap: 2px;
+      div {
+        // margin: 20px 0;
+      }
+    }
   }
 }

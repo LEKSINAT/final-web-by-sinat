@@ -6,20 +6,41 @@ header {
     // display: flex;
     // height: 50%;
     padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // text-align: center;
+
     // margin-top: 30px;
     height: 70vh;
+
     h1 {
         color: orange;
         text-align: center;
-        @include center
-        // font-size: 2.5em;
+        @include center // font-size: 2.5em;
     }
+
     p {
         text-align: center;
         font-size: 18px;
         margin-top: 20px;
-         color: white;
-         @include center;
+        color: white;
+        @include center;
     }
 }
 
+@media (max-width: 890px) and (min-width: 700px) {
+    header {
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+  
+
+}

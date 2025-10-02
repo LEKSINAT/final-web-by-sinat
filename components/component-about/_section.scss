@@ -17,6 +17,7 @@ section {
                 // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
             }
         }
+
         h1 {
             text-align: center;
             color: orange;
@@ -41,13 +42,10 @@ section {
 
     .valuess {
         margin-top: 30px;
-
     }
-
     .respect-text {
         padding-top: 10px;
     }
-
     .values {
         text-align: center;
         height: 250px;
@@ -62,13 +60,11 @@ section {
         width: 80px;
         height: 85px;
     }
-
     .card-values {
         display: flex;
         gap: 50px;
         justify-content: center;
         align-items: center;
-        // flex-direction: row;
     }
 
     .canteen-info {
@@ -86,7 +82,6 @@ section {
         height: 250px;
         border-radius: 20px 0px 20px 0px;
         margin: 20px 20px 20px 0px;
-        // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
     }
 
     .sport {
@@ -100,21 +95,21 @@ section {
             height: 250px;
             border-radius: 20px 0px 20px 0px;
             margin: 20px 20px 20px 0px;
-            // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
         }
+
         p {
             padding-top: 60px;
-            // text-align: center;
-            // width: 400px;
             font-size: 17px;
         }
     }
-    .info-senior{
+
+    .info-senior {
         text-align: center;
         margin-top: 50px;
         font-size: 30px;
         color: orange;
     }
+
     .senior {
         margin: 50px 100px;
         text-align: center;
@@ -122,20 +117,22 @@ section {
         justify-content: center;
         align-items: center;
         gap: 50px;
+
         .card-senior {
             background: rgba(135, 207, 235, 0.111);
             width: 25%;
             gap: 30px;
             border-radius: 15px;
+
             .box-senior {
                 padding: 15px;
             }
+
             img {
                 width: 200px;
                 height: 200px;
                 border-radius: 20px;
                 margin-top: 20px;
-                // box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
             }
 
             p {
@@ -143,8 +140,65 @@ section {
                 font-size: 17px;
             }
         }
+
         h1 {
             margin-bottom: 20px;
+        }
+    }
+}
+
+
+@media (max-width: 890px) and (min-width: 700px) {
+
+    section {
+        .schoolarship-school {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            img {
+                margin-bottom: 20px;
+                width: 80%;
+            }
+        }
+
+        .canteen-info {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            img {
+                margin-bottom: 20px;
+                width: 80%;
+            }
+
+            .canteen-text {
+                width: 100%;
+            }
+        }
+
+        .sport {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            img {
+                margin-bottom: 20px;
+                width: 80%;
+            }
+        }
+
+        .senior {
+            flex-direction: column;
+            gap: 8px;
+            .card-senior {
+                width: 110%;
+                .box-senior {
+                    display: flex;
+                    gap: 10px;
+        
+                }
+            }
         }
     }
 }

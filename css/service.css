@@ -179,7 +179,9 @@ section .news-cards .card span {
   margin-bottom: 15px;
   font-size: 18px;
 }
-.footer .footer-container div p, .footer .footer-container div li, .footer .footer-container div a {
+.footer .footer-container div p,
+.footer .footer-container div li,
+.footer .footer-container div a {
   color: #ccc;
   font-size: 14px;
 }
@@ -212,4 +214,13 @@ section .news-cards .card span {
   margin-top: 20px;
   font-size: 13px;
   color: #888;
+}
+
+@media (max-width: 890px) and (min-width: 700px) {
+  .footer {
+    padding: 40px 5px;
+  }
+  .footer .footer-container {
+    gap: 2px;
+  }
 }/*# sourceMappingURL=service.css.map */

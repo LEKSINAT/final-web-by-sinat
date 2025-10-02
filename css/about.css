@@ -39,6 +39,10 @@
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/image/headers-about.png) center/cover no-repeat;
   padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 70vh;
 }
 header h1 {
@@ -58,6 +62,14 @@ header p {
   align-items: center;
 }
 
+@media (max-width: 890px) and (min-width: 700px) {
+  header h1 {
+    font-size: 2em;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
 section .schoolarship-school {
   margin-top: 30px;
   display: flex;
@@ -182,6 +194,49 @@ section .senior h1 {
   margin-bottom: 20px;
 }
 
+@media (max-width: 890px) and (min-width: 700px) {
+  section .schoolarship-school {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  section .schoolarship-school img {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  section .canteen-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  section .canteen-info img {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  section .canteen-info .canteen-text {
+    width: 100%;
+  }
+  section .sport {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  section .sport img {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  section .senior {
+    flex-direction: column;
+    gap: 8px;
+  }
+  section .senior .card-senior {
+    width: 110%;
+  }
+  section .senior .card-senior .box-senior {
+    display: flex;
+    gap: 10px;
+  }
+}
 .footer {
   background: #111;
   color: #fff;
@@ -203,7 +258,9 @@ section .senior h1 {
   margin-bottom: 15px;
   font-size: 18px;
 }
-.footer .footer-container div p, .footer .footer-container div li, .footer .footer-container div a {
+.footer .footer-container div p,
+.footer .footer-container div li,
+.footer .footer-container div a {
   color: #ccc;
   font-size: 14px;
 }
@@ -236,4 +293,13 @@ section .senior h1 {
   margin-top: 20px;
   font-size: 13px;
   color: #888;
+}
+
+@media (max-width: 890px) and (min-width: 700px) {
+  .footer {
+    padding: 40px 5px;
+  }
+  .footer .footer-container {
+    gap: 2px;
+  }
 }/*# sourceMappingURL=about.css.map */
