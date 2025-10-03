@@ -145,10 +145,18 @@
   }
   .reason .reason-pic img {
     width: 70%;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 40px;
   }
   .reason .reason-text {
     padding-left: 30px;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .second img {
+    width: 100%;
   }
 }
 .main-container {
