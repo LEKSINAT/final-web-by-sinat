@@ -121,6 +121,36 @@
   box-shadow: 2px 2px 2px rgba(255, 68, 0, 0.779);
 }
 
+@media (max-width: 890px) and (min-width: 700px) {
+  .video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    z-index: -8;
+    transform: translate(-50%, -50%);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .reason {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .reason .reason-pic img {
+    width: 70%;
+    margin: 0px 0px 0px 50px;
+  }
+  .reason .reason-text {
+    padding-left: 30px;
+  }
+}
 .main-container {
   margin: 50px auto;
   padding: 20px;

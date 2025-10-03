@@ -211,7 +211,7 @@ section .senior h1 {
   }
   section .canteen-info img {
     margin-bottom: 20px;
-    width: 80%;
+    width: 100%;
   }
   section .canteen-info .canteen-text {
     width: 100%;
@@ -223,7 +223,7 @@ section .senior h1 {
   }
   section .sport img {
     margin-bottom: 20px;
-    width: 80%;
+    width: 70%;
   }
   section .senior {
     flex-direction: column;
