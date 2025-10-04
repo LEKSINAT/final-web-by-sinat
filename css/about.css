@@ -95,6 +95,10 @@ section .schoolarship-school .info-main p {
   width: 600px;
   font-size: 17px;
 }
+section .schoolarship-school:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
 section .pn-values {
   padding-top: 20px;
 }
@@ -116,6 +120,10 @@ section .values {
   background: rgba(198, 225, 234, 0.149);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
+section .values:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
 section .img-pnc {
   width: 80px;
   height: 85px;
@@ -135,11 +143,19 @@ section .canteen-info {
   gap: 20px;
   margin: 50px 100px;
 }
+section .canteen-info:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
 section .canteen-pic img {
   width: 400px;
   height: 250px;
   border-radius: 20px 0px 20px 0px;
   margin: 20px 20px 20px 0px;
+}
+section .sport:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
 }
 section .sport {
   background: rgba(135, 207, 235, 0.037);
@@ -189,6 +205,10 @@ section .senior .card-senior img {
 section .senior .card-senior p {
   padding-top: 20px;
   font-size: 17px;
+}
+section .senior .card-senior:hover {
+  transform: translateY(-7px);
+  transition: 0.5s;
 }
 section .senior h1 {
   margin-bottom: 20px;

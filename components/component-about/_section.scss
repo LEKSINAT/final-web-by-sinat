@@ -32,6 +32,12 @@ section {
         }
     }
 
+    .schoolarship-school:hover {
+        transform: translateY(-7px);
+        transition: .5s;
+    }
+
+
     .pn-values {
         padding-top: 20px;
     }
@@ -43,9 +49,11 @@ section {
     .valuess {
         margin-top: 30px;
     }
+
     .respect-text {
         padding-top: 10px;
     }
+
     .values {
         text-align: center;
         height: 250px;
@@ -56,10 +64,16 @@ section {
         box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
     }
 
+    .values:hover {
+        transform: translateY(-7px);
+        transition: .5s;
+    }
+
     .img-pnc {
         width: 80px;
         height: 85px;
     }
+
     .card-values {
         display: flex;
         gap: 50px;
@@ -77,11 +91,21 @@ section {
         margin: 50px 100px;
     }
 
+    .canteen-info:hover {
+        transform: translateY(-7px);
+        transition: .5s;
+    }
+
     .canteen-pic img {
         width: 400px;
         height: 250px;
         border-radius: 20px 0px 20px 0px;
         margin: 20px 20px 20px 0px;
+    }
+
+    .sport:hover {
+        transform: translateY(-7px);
+        transition: .5s;
     }
 
     .sport {
@@ -141,6 +165,11 @@ section {
             }
         }
 
+        .card-senior:hover {
+            transform: translateY(-7px);
+            transition: .5s;
+        }
+
         h1 {
             margin-bottom: 20px;
         }
@@ -191,12 +220,14 @@ section {
         .senior {
             flex-direction: column;
             gap: 8px;
+
             .card-senior {
                 width: 110%;
+
                 .box-senior {
                     display: flex;
                     gap: 10px;
-        
+
                 }
             }
         }
