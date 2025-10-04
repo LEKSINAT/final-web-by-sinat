@@ -2,24 +2,34 @@
     margin: 50px auto;
     padding: 20px;
     font-family: 'Arial, sans-serif';
-    .first{
-        .info h2{
+
+    .first {
+        .info h2 {
             text-align: center;
             font-size: 28px;
             color: #333;
         }
-        .reason{
+
+        .reason:hover {
+            transform: translateY(-7px);
+            transition: .5s;
+        }
+
+        .reason {
+            // background: #000;
             display: flex;
             border-radius: 10px;
             padding: 20px;
             margin-top: 30px;
             padding-left: 30px;
         }
-        .reason-pic img{
+
+        .reason-pic img {
             width: 70%;
         }
     }
-    img{
+
+    img {
         display: block;
         margin: 0 auto 20px;
         width: 40%;
@@ -37,16 +47,24 @@
     &:hover {
         transition: background-color 0.3s ease;
     }
-    .second{
+
+    .second:hover {
+        transform: translateY(-7px);
+        transition: .5s;
+    }
+
+    .second {
         display: flex;
         margin-top: 50px;
         margin-left: 60px;
         margin-right: 60px;
-        img{
+
+        img {
             width: 40%;
             margin-bottom: 20px;
         }
-        p{
+
+        p {
             font-size: 18px;
             line-height: 1.6;
             color: black;
@@ -60,5 +78,5 @@
         }
     }
 
-    
+
 }
