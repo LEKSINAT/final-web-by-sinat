@@ -186,6 +186,24 @@ section .news-cards .card span {
   color: gray;
 }
 
+@media (max-width: 890px) and (min-width: 700px) {
+  section .news-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  section .news-grid .featured-news {
+    margin: 10px 2px 0px 5px;
+  }
+  section .news-grid .featured-news .featured-text h2 {
+    text-align: center;
+  }
+  section .news-grid .featured-news .featured-text img {
+    width: 20px;
+  }
+  section .news-grid .side-story {
+    margin: 40px 5px 10px 100px;
+  }
+}
 .footer {
   background: #111;
   color: #fff;

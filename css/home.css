@@ -81,11 +81,12 @@
   overflow: hidden;
 }
 .video-background video {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: auto;
-  height: auto;
   z-index: -1;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
@@ -127,7 +128,7 @@
     padding: 0;
   }
   .video-background {
-    margin: 0 auto;
+    height: 40vh;
   }
   .video-background video {
     width: 100%;

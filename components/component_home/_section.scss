@@ -5,11 +5,12 @@
   overflow: hidden;
 
   video {
+    width: 100%;
+    margin: 0;
+    padding: 0;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: auto;
-    height: auto;
     z-index: -1;
     transform: translate(-50%, -50%);
     object-fit: cover;
@@ -54,14 +55,13 @@
 
 
 @media (max-width: 890px) and (min-width: 700px) {
-
   .feature {
     margin: 0;
     padding: 0;
   }
 
   .video-background {
-    margin: 0 auto;
+    height: 40vh;
 
     video {
       width: 100%;

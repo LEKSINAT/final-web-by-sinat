@@ -79,6 +79,7 @@ section {
             transform: translateY(-7px);
             transition: .5s;
         }
+
         .featured-news {
             position: relative;
             display: flex;
@@ -164,8 +165,10 @@ section {
             transform: translateY(-7px);
             transition: .5s;
         }
+
         .card {
             background: white;
+
             img {
                 width: 70%;
                 // border-radius: 6px;
@@ -194,4 +197,33 @@ section {
             }
         }
     }
+}
+
+@media (max-width: 890px) and (min-width: 700px) {
+
+    section {
+
+        .news-grid {
+            display: flex;
+            flex-direction: column;
+            .featured-news {
+                margin: 10px 2px 0px 5px;
+                .featured-text {
+                    h2 {
+                        text-align: center;
+                    }
+    
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+
+            .side-story{
+                margin: 40px 5px 10px 100px;
+            }
+        }
+
+    }
+
 }
